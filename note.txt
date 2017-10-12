@@ -1,1 +1,21 @@
 # create problem note
+
+Guys this is how it worked for me:
+
+1- Open terminal and go to user [See attached image]
+
+2- Open .ssh folder and make sure it doesn't have any file like id_rsa or id_rsa.pub otherwise sometimes it wont properly rewrite files
+
+3 - git --version [Check for git installation and version]
+
+4- git config --global user.email "your email id"
+
+5- git config --global user.name "your name"
+
+6- git config --list [make sure you have set your name & email]
+
+7- cd ~/.ssh
+
+8- ssh-keygen, it prompts for saving file, allow it
+
+9- cat ~/.ssh/id_rsa.pub [Access your public key & copy the key to gerrit settings]
