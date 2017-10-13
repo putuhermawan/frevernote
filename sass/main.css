@@ -1,0 +1,10 @@
+.bg {
+  background-color: #d5f6dd;
+  height: 100px;
+  width: 50%;
+  margin: 0 auto;
+  color: black; }
+  .bg:hover {
+    background-color: #09ae64; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,1 +1,14 @@
-# create navigation style scss
+// # create navigation style scss
+@import 'variable';
+
+.bg {
+	background-color: $gl1;
+	height: 100px;
+	width: 50%;
+	margin: 0 auto;
+	color: black;
+
+	&:hover {
+		background-color: $gb2;
+	}
+}
