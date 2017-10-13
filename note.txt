@@ -19,3 +19,5 @@ Guys this is how it worked for me:
 8- ssh-keygen, it prompts for saving file, allow it
 
 9- cat ~/.ssh/id_rsa.pub [Access your public key & copy the key to gerrit settings]
+
+
